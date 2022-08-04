@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(238, 235, 235);
+}
+*{
+    text-decoration: none;
+}
+.conteneur{
+    background: white;
+    width: 35%;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+    margin-top: 20rem;
+}
+.form{
+    padding: 2rem 3rem;
+}
+.form header{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid black; */
+}
+.form form{
+    margin: 15px 0;
+}
+.form form .error-message{
+    color: #721c24;
+    background: #f8d7da;
+    padding: 8px 8px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+    align-items: center;
+}
+.form form .detail-nom{
+    display: flex;
+    gap: 1rem;
+    /* position: relative;
+    width: 30px; */
+}
+/* form .detail-nom .filed:first-child{
+    margin-right: 10px;
+}
+form .detail-nom .filed:last-child{
+    margin-left: 10px;
+} */
+.form form .filed{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form form .filed label{
+    margin-bottom: 5px;
+}
+.form form .input input{
+    height: 30px;
+    font-size: 15px;
+    padding: 6px 6px;
+    border-style: none;
+    background: #dfdddd;
+    border-radius: 5px;
+    outline: none;
+}
+.form form .image input{
+    font-size: 17px;
+}
+.form form .button input{
+    margin-top: 13px;
+    padding: 13px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: rgb(53, 197, 190);
+    color: white;
+    /* width: 100%; */
+}
+.form form .filed select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    background: #dddada;
+    width: 120em;
+    border-radius: 5px;
+}
+.form form .filed select::-ms-expand{
+    display: none;
+}
+.form form .filed .select{
+    display: flex;
+    position: relative;
+    height: 40px;
+    /* overflow: hidden; */
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inscription.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteneur">
+        <div class="form inscription">
+            <header>Inscrivez-vous ici!</header>
+            <form action="#">
+                <div class="error-message">Message Error</div>
+                <div class="detail-nom">
+                    <div class="filed input">
+                        <label for="">Nom de famille</label>
+                        <input type="text" placeholder="Nom de famille" name="nom">
+                    </div>
+                    <div class="filed input">
+                        <label for="">Prenom</label>
+                        <input type="text" placeholder="Prenom" name="prenom">
+                    </div>
+                </div>
+                <div class="filed input">
+                    <label for="">Username</label>
+                    <input type="text" placeholder="Entrer votre Nom d'utilisateur" name="username">
+                </div>
+                <div class="filed input">
+                    <label for="">Email</label>
+                    <input type="text" placeholder="Entrer votre Email" name="email">
+                </div>
+                <div class="filed input">
+                    <label for="">Password</label>
+                    <input type="text" placeholder="Entrez un nouveau mot de passe" name="password">
+                </div>
+                <div class="filed image">
+                    <label for="">Photo Profil</label>
+                    <input type="file" name="pp">
+                </div>
+                <div class="filed">
+                    <label for="">Sexe</label>
+                    <div class="select">
+                        <select name="sexe" id="">
+                            <option selected disabled>Selectionnez votre sexe</option>
+                            <option value="F">FEMININ</option>
+                            <option value="M">MASCULIN</option> 
+                        </select>
+                    </div>
+                </div>
+                <div class="filed">
+                    <label for="">Pays</label>
+                    <div class="select">
+                        <select name="Pays" id="">
+                            <option selected disabled>Selectionnez votre pays</option>
+                            <option value="Togo">Togo</option>
+                            <option value="Benin">Benin</option>
+                            <option value="Burkina">Burkina Faso</option>
+                            <option value="Ghana">Ghana</option>
+                            <option value="Nigeria">Nigeria</option>
+                            <option value="Turquie">Turquie</option>
+                            <option value="Tonga">Tonga</option>
+                            <option value="Tchad">Tchad</option>
+                            <option value="Tunisie">Tunisie</option>
+                            <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filed input">
+                    <label for="">Age</label>
+                    <input type="text" placeholder="Entrez votre Age" name="age">
+                </div>
+                <div class="filed button">
+                    <input type="submit" value="Envoyer" name="envoyer">
+                </div>
+            </form>
+            <div class="link">Avez-vous déja un compte? <a href=""> Connectez-vous!</a></div>
+        </div>
+    </div>
+</body>
+</html>
